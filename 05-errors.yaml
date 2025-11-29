@@ -5,5 +5,4 @@ metadata:
 spec:
   containers:
     - name: nginx
-      Image: ngindyuuy8ib
-      
+      image: ngindyuuy8ib
