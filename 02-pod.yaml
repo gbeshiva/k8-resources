@@ -3,9 +3,9 @@ kind: Pod
 metadata:
   name: nginx
   namespace: roboshop
-  project: roboshop
   labels:
-    app.kubernetes.io/name: myapp
+    name: nginx
+    project: roboshop
 spec:
   containers:
   - name: nginx
