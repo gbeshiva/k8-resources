@@ -10,8 +10,7 @@ spec:
     environment:  dev
     purpose:  node-port
   ports:
-  - name:  Port Name
-    protocol: TCP
+  - protocol: TCP
     port:  80  # service port
     targetPort: 80 
 
