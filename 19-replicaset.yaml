@@ -10,11 +10,11 @@ spec:
   replicas: 3
   selector:
   # these labels are used toselect pod
-    matchlabels:
+    matchLabels:
       purpose:  rs-demo
       project:  roboshop
   # pod definition
-  templates:
+  template:
     metadata:
       labels:
         purpose: rs-demo
@@ -22,5 +22,5 @@ spec:
     spec:
       containers:
       - name: nginx
-        images: nginx
+        image: nginx
 
