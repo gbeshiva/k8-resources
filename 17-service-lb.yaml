@@ -10,7 +10,7 @@ spec:
     environment:  dev
     purpose:  load-balancer
   ports:
-  - protocol: TCP
-    port:  80
-    targetPort: 80
-    NodePort: 30007
+    - protocol: TCP
+      port:  80
+      targetPort: 80
+      NodePort: 30007
