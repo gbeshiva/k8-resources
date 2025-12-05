@@ -4,11 +4,10 @@ metadata:
   name: service-np-demo
   labels:
     project:  roboshop
-    component:  froentend
+    component:  frontend
     environment: dev
     purpose:  node-port
 spec:
   containers:
     - name: nginx
       image:  nginx
-      

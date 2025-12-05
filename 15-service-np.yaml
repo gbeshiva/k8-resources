@@ -6,7 +6,7 @@ spec:
   type: NodePort
   selector:
     project:  roboshop
-    component:  froentend
+    component:  frontend
     environment:  dev
     purpose:  node-port
   ports:

@@ -6,7 +6,7 @@ spec:
   type: LoadBalancer
   selector:
     project:  roboshop
-    component: froentend
+    component: frontend
     environment:  dev
     purpose:  load-balancer
   ports:
